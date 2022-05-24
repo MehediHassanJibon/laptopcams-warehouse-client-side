@@ -7,6 +7,7 @@ import Login from './Components/Auth/Login/Login';
 import Register from './Components/Auth/Register/Register';
 import Home from './Components/Home/Home';
 import AddItem from './Components/AddItem/AddItem';
+import ManageItems from './Components/ManageItems/ManageItems';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/additems' element={<AddItem></AddItem>}></Route>
+        <Route path='/manage' element={<ManageItems></ManageItems>}></Route>
       </Routes>
       <ToastContainer></ToastContainer>
     </div>
