@@ -1,0 +1,9 @@
+.slider-image{
+    height: 500px;
+}
+
+@media (max-width:770px) {
+    .slider-image{
+        height: 200px;
+    }
+}
