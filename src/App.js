@@ -15,6 +15,7 @@ import RequireAuth from './Components/Auth/RequireAuth/RequireAuth';
 import Blogs from './Components/Blogs/Blogs';
 import Contact from './Components/Contact/Contact';
 import Help from './Components/Help/Help';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         }></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
       <ToastContainer></ToastContainer>
     </div>
   );

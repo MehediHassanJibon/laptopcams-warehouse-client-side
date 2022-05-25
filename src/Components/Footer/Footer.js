@@ -1,0 +1,26 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Footer = () => {
+    return (
+        <div>
+
+            <footer className="text-center text-lg-start bg-dark">
+                <div className="container d-flex justify-content-center py-5">
+                    <h1 className="card-title text-secondary">
+                        Laptopcams
+                    </h1>
+                </div>
+
+                <div className="text-center text-white p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
+                    &copy; 2022 Copyright:
+                    <Link className="text-white" to='/'> laptopcams</Link>
+                </div>
+
+            </footer>
+
+        </div>
+    );
+};
+
+export default Footer;
