@@ -18,7 +18,7 @@ const AddItem = () => {
 
         }
 
-        fetch('http://localhost:5000/allproducts', {
+        fetch('https://serene-temple-59285.herokuapp.com/allproducts', {
             method: 'POST',
             body: JSON.stringify(newProduct),
             headers: {
