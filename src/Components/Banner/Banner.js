@@ -16,8 +16,8 @@ const Banner = () => {
                     <div className="carousel-item active">
                         <img src={slider1} className="d-block w-100 slider-image" alt="..."  />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Laptopcams Studio</h5>
-                            <p>Mobile gadgets in smartphone warehouse can be found by brands, price range and so on. A blog section is also there to keep you informed about the latest news from the mobile phone industry. You may also check our where to buy page to get some idea about different buying possibilities.</p>
+                            <h5 style={{color:'black'}}>Laptopcams Studio</h5>
+                            <p style={{color:'black'}}>Tech gadgets in laptopcams warehouse can be found by brands, price range and so on. A blog section is also there to keep you informed about the latest news from the laptop industry. You may also check our where to buy page to get some idea about different buying possibilities.</p>
                         </div>
                     </div>
                     {/* <div className="carousel-item">

@@ -15,7 +15,7 @@
     height: 48px;
     border: none;
     border-radius: 25px;
-    background: repeating-radial-gradient(tomato, transparent 181px);
+    background: repeating-radial-gradient(#47aaff, transparent 181px);
     color: white;
     position: absolute;
     top: 0;
@@ -23,7 +23,7 @@
 }
 
 .search-btn:hover {
-    background: repeating-radial-gradient(tomato, transparent 150px);
+    background: repeating-radial-gradient(#47aaff, transparent 150px);
 }
 
 .help-center-form {
